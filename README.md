@@ -2,53 +2,68 @@
 
 ### Initial version
 
-This is an initial public release
+This is an initial public release.
+
+### What is swagger-validator?
+
+This software is a [NodeJS](https://nodejs.org) application.
+
+It is intended to use for rapid testing and validation of [Swagger Specification file](https://)
+with the help of [Swagger tool](https://github.com/apigee-127/swagger-tools)
+
+It is design to be run with [npm](https://www.npmjs.org/package/npm) using `npm run-script {XXXX};` where XXXX is one of demo, test, nolog.
+
+This initial release also supports running [swagger-validator](https://github.com/tmalbonph/swagger-validator) with [grunt](https://github.com/gruntjs/grunt) .
 
 ### How to install
 
-``` install bower
-npm install -g bower
-```
+* install [bower](https://github.com/bower/bower)
 
-``` install grunt
-npm install -g grunt-cli
-npm install grunt
-```
+ `npm install -g bower`
 
-``` install dependencies
-npm install
-```
+* install [grunt](https://github.com/gruntjs/grunt)
+
+ `npm install -g grunt-cli`
+ `npm install grunt`
+
+* install dependencies
+
+ `npm install`
 
 ### How to test
 
-```
-npm test
-```
-or
-```
-grunt test
-```
+* test with npm
+
+ `npm test`
+
+* test with grunt
+
+ `grunt test`
 
 ### Test with JSON logs
 
-```
-npm run-script demo
-```
-or
-```
-grunt demo
-```
+* test with npm
+
+ `npm run-script demo`
+
+* test with grunt
+
+ `grunt demo`
 
 ### Test without JSON logs
 
-```
-npm run-script nolog
-```
-or
-```
-grunt nolog
-```
+* test with npm
+
+ `npm run-script nolog`
+
+* test with grunt
+
+ `grunt nolog`
 
 ### License
 
 MIT
+
+### Current status
+
+The current version of this software is intended to be use only on [serenity](https://github.com/topcoderinc/serenity-core) project.

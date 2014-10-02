@@ -8,8 +8,7 @@ This is an initial public release.
 
 This software is a [NodeJS](https://nodejs.org) application.
 
-It is intended to use for rapid testing and validation of [Swagger Specification file](https://)
-with the help of [Swagger tool](https://github.com/apigee-127/swagger-tools)
+It is intended to use for rapid testing and validation of Swagger Specification [version 1.2](https://github.com/wordnik/swagger-spec/blob/master/versions/1.2.md) and [version 2.0](https://github.com/reverb/swagger-spec/blob/master/versions/2.0.md) with the help of [Swagger tool](https://github.com/apigee-127/swagger-tools) .
 
 It is design to be run with [npm](https://www.npmjs.org/package/npm) using `npm run-script {XXXX};` where XXXX is one of demo, test, nolog.
 
@@ -21,9 +20,12 @@ This initial release also supports running [swagger-validator](https://github.co
 
  `npm install -g bower`
 
-* install [grunt](https://github.com/gruntjs/grunt)
+* install [grunt-cli](https://github.com/gruntjs/grunt)
 
  `npm install -g grunt-cli`
+
+* install [grunt](https://github.com/gruntjs/grunt)
+
  `npm install grunt`
 
 * install dependencies
@@ -62,7 +64,7 @@ This initial release also supports running [swagger-validator](https://github.co
 
 ### License
 
-MIT
+[MIT](https://github.com/tmalbonph/swagger-validator/blob/master/LICENSE)
 
 ### Current status
 

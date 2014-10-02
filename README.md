@@ -6,7 +6,7 @@ This is an initial public release.
 
 ### What is swagger-validator?
 
-This software is a [NodeJS](https://nodejs.org) application.
+This software is a [NodeJS](http://nodejs.org) application.
 
 It is intended to use for rapid testing and validation of Swagger Specification [version 1.2](https://github.com/wordnik/swagger-spec/blob/master/versions/1.2.md) and [version 2.0](https://github.com/reverb/swagger-spec/blob/master/versions/2.0.md) with the help of [Swagger tool](https://github.com/apigee-127/swagger-tools) .
 

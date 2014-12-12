@@ -1,0 +1,8 @@
+*~
+.*~
+*.*~
+*.log
+*.patch
+.test
+.logs
+*.sh

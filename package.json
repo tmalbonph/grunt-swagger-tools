@@ -1,0 +1,48 @@
+{
+  "name": "grunt-swagger-tools",
+  "version": "0.1.3",
+  "description": "Grunt module for Swagger validation",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "swagger-tools": "^0.5.8",
+    "grunt-contrib-jshint": "^0.10.0",
+    "load-grunt-tasks": "^0.4.0",
+    "jshint": "2.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt test",
+    "demo": "grunt demo",
+    "nolog": "grunt nolog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmalbonph/grunt-swagger-tools.git"
+  },
+  "keywords": [
+    "Serenity",
+    "Grunt",
+    "Swagger",
+    "Module"
+  ],
+  "author": "Teddy Albon <tmalbonph@yahoo.com> (https://github.com/tmalbonph)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmalbonph/grunt-swagger-tools/issues"
+  },
+  "homepage": "https://github.com/tmalbonph/grunt-swagger-tools",
+  "files": [
+    "index.js",
+    "Gruntfile.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "maintainers": [
+    "Neil Hastings <neil.hastings@gmail.com> (http://indytechcook.com)",
+    "Teddy Albon <tmalbonph@yahoo.com> (https://github.com/tmalbonph)"
+  ]
+}

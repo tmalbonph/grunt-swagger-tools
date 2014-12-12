@@ -2,10 +2,10 @@
 
 ### Updated to version v0.1.3
 
-v0.1.0 This is an initial public release.
-v0.1.1 Fix error
-v0.1.2 Fix error in jshint@2.5.5
-v0.1.3 Updated the link as this project were moved to different repository
+* v0.1.0 This is an initial public release.
+* v0.1.1 Fix error
+* v0.1.2 Fix error in jshint@2.5.5
+* v0.1.3 Updated the link as this project were moved to different repository
 
 ### What is grunt-swagger-tools?
 
@@ -136,8 +136,9 @@ var swagger_testfiles = {
   // yaml tester for ./PATH/TO/YOUR/SWAGGER.yaml
   grunt.task.registerTask('yamlTest', 'Test Swagger spec file', function() {
 
-	// load the grunt-swagger-tools >= 0.1.1
+	// load the grunt-swagger-tools >= 0.1.3
 	try {
+        // https://www.npmjs.com/package/grunt-swagger-tools
 		swagger = require('grunt-swagger-tools')();
 
 		// Setup 2.0 Swagger spec compliant using YAML format
@@ -161,23 +162,24 @@ var swagger_testfiles = {
 ### License
 
 [MIT](https://github.com/topcoderinc/grunt-swagger-tools/blob/master/LICENSE)
-    ```
-The MIT License (MIT)
-Portion Copyright (c) 2014 tmalbonph <tmalbonph@yahoo.com>
-Copyright (c) 2014 Apigee Corporation
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+ ```
+	The MIT License (MIT)
+	Portion Copyright (c) 2014 tmalbonph <tmalbonph@yahoo.com>
+	Copyright (c) 2014 Apigee Corporation
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+
     ```

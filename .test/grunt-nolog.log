@@ -1,0 +1,26 @@
+Running "nolog" task
+Running Version 1.2 Demo test
+Invalid 1.2 Swagger API file 'undefined'
+Reading (1.2): './examples/1.2/api/api-doc.json'
+
+Invalid v1 API Swagger filename: 'undefined'
+Reading (1.2): './examples/1.2/api/api-doc.json'
+
+ERROR: callback is required
+1.2 RESULT: false
+
+Running Version 2.0 Demo test
+Invalid 2.0 Swagger API file 'undefined'
+Reading (2.0): './examples/2.0/api/swagger.json'
+
+ERROR: callback is required
+2.0 RESULT: false
+
+Running Version 2.0 YAML Demo test
+Reading (2.0): './examples/2.0/api/swagger.yaml'
+
+ERROR: Unexpected identifier
+YAML 2.0 RESULT: false
+
+
+Done.

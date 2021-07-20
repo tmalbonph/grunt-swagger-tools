@@ -1,5 +1,9 @@
 ## Grunt module for Swagger specification validation
 
+### Updated to version v0.1.4
+
+* v0.1.4 2021/07/20 15:34 EDT - Fix CVE-2020-7729 vulnerabilities
+
 ### Updated to version v0.1.3
 
 * v0.1.0 This is an initial public release.
@@ -49,29 +53,37 @@ This initial release also supports running [grunt-swagger-tools](https://github.
 
 ### Test with JSON logs
 
-* test with npm
+#### - test with npm
 
  `npm run-script demo`
 
-* test with grunt
+ - Results in [.test/run-script-demo.log](.test/run-script-demo.log)
+
+#### - test with grunt
 
  `grunt demo`
 
+ - Results in [.test/grunt-demo.log](.test/grunt-demo.log)
+
 ### Test without JSON logs
 
-* test with npm
+#### - test with npm
 
  `npm run-script nolog`
 
-* test with grunt
+ - Results in [.test/run-script-nolog.log](.test/run-script-nolog.log)
+
+#### - test with grunt
 
  `grunt nolog`
+
+ - Results in [.test/grunt-nolog.log](.test/grunt-nolog.log)
 
 ### NOTES
 
 * jshint version 2.5.5 is failing with this error 
 
- ```
+```s
   npm ERR! cb() never called!
   npm ERR! not ok code 0
 
@@ -86,13 +98,15 @@ This initial release also supports running [grunt-swagger-tools](https://github.
   minimatch@0.4.0 (sigmund@1.0.0, lru-cache@2.5.0)
   htmlparser2@3.3.0 (domelementtype@1.1.1, domutils@1.1.6, domhandler@2.1.0, readable-stream@1.0.33-1)
   cli@0.4.5 (glob@4.0.6)
+
 ```
 
 ### How to use it to test your Swagger document?
 
 * there is a demo file Gruntfile.js update it to suite your needs.
 
- ```
+```javascript
+
 var swagger_testfiles = {
 
     // for 1.2 Swagger Specification file
@@ -114,22 +128,24 @@ var swagger_testfiles = {
    ]
 };
 
-    ```
+```
 
 ### Here is a sample grunt task name 'yamlTest'
 
 * on top of Gruntfile.js, add the following
 
- ```
+```javascript
+
   var re;
   var swagger;
   var swagger_file = __dirname + '/PATH/TO/YOUR/SWAGGER.yaml';
 
-    ```
+```
 
 * at the bottom of Gruntfile.js, add something like
 
- ```
+```javascript
+
   // should be >= 0.10.0
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
@@ -157,7 +173,7 @@ var swagger_testfiles = {
 	console.log('YAML 2.0 RESULT: ' + re + '\n');
   });
 
-    ```
+```
 
 ### License
 

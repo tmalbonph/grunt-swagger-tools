@@ -2,7 +2,7 @@
 .*~
 *.*~
 node_modules
-.test
+#.test
 .logs
 clean.sh
 tarme.sh

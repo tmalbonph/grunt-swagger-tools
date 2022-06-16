@@ -7,11 +7,15 @@
     "example": "examples"
   },
   "dependencies": {
-    "grunt": "^1.4.1",
+    "dicer": "^0.3.1",
+    "grunt": "^1.5.2",
     "grunt-contrib-jshint": "^3.0.0",
     "jshint": "^2.5.0",
     "load-grunt-tasks": "^5.1.0",
-    "swagger-tools": "^0.10.4"
+    "minimist": "^1.2.6",
+    "shelljs": "^0.8.5",
+    "swagger-tools": "^0.10.4",
+    "validator": "^13.7.0"
   },
   "scripts": {
     "test": "grunt test",

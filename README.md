@@ -1,5 +1,9 @@
 ## Grunt module for Swagger specification validation
 
+### Updated to version v0.1.5
+
+* v0.1.5 2023/09/05 09:30 EDT - Fix CVE-2022-25883 vulnerabilities
+
 ### Updated to version v0.1.4
 
 * v0.1.4 2021/07/20 15:34 EDT - Fix CVE-2020-7729 vulnerabilities

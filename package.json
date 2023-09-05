@@ -7,14 +7,18 @@
     "example": "examples"
   },
   "dependencies": {
+    "cookiejar": "^2.1.4",
     "dicer": "^0.3.1",
     "grunt": "^1.5.2",
     "grunt-contrib-jshint": "^3.0.0",
     "jshint": "^2.5.0",
     "load-grunt-tasks": "^5.1.0",
+    "minimatch": "^3.0.5",
     "minimist": "^1.2.6",
+    "qs": "^6.9.7",
+    "semver": "^7.5.2",
     "shelljs": "^0.8.5",
-    "swagger-tools": "^0.10.4",
+    "swagger-tools": "^0.10.1",
     "validator": "^13.7.0"
   },
   "scripts": {
